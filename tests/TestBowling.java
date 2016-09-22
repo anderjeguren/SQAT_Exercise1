@@ -23,6 +23,8 @@ public class TestBowling {
 	public void testScore() {
 		
 		BowlingGame bg = new BowlingGame();
+		int result = 0;
+		
 		Frame frame = new Frame(4,5);
 		Frame frame2 = new Frame(2,5);
 		Frame frame3 = new Frame(1,5);
@@ -31,8 +33,10 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		Frame frameResult = bg.getFrame();
-		int result = frameResult.getFirstThrow() + frameResult.getSecondThrow();
+		for(int i=0; i<frames.size(); i++){
+			Frame frameResult = bg.getFrame();
+			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
+		}
 		assertEquals("Sudokus length is OK", 9, result);	
 	}
 
