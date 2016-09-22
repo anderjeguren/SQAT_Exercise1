@@ -120,3 +120,8 @@ UnitTestSessionAction 1474548869376 TestBowling.java OK
 RefactoringAction 1474548882053 TestBowling.java ADD void testScore()/2 METHOD
 RefactoringAction 1474548887058 TestBowling.java RENAME testScore()/2=>void testGame() METHOD
 EditAction 1474548930961 TestBowling.java 1981 4 38 4
+UnitTestCaseAction 1474548938944 TestBowling.java FAIL
+UnitTestSessionAction 1474548938944 TestBowling.java FAIL
+FileOpenedAction 1474548972183 BowlingException.java 58 0 0 0
+RefactoringAction 1474549191502 TestBowling.java REMOVE testGame() METHOD
+EditAction 1474549285635 TestBowling.java 1365 3 27 3

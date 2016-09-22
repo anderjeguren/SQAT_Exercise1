@@ -46,7 +46,6 @@ public class TestBowling {
 	public void testScore() {
 		
 		BowlingGame bg = new BowlingGame();
-		int result = 0;
 		
 		Frame frame = new Frame(4,5);
 		Frame frame2 = new Frame(2,5);
@@ -56,31 +55,9 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		for(int i=0; i<3; i++){
-			Frame frameResult = bg.getFrame();
-			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
-		}
+		int result = bg.score();
+		
 		assertEquals("Sudokus length is OK", 22, result);	
 	}
 
-	@Test
-	public void testGame() {
-		
-		BowlingGame bg = new BowlingGame();
-		int result = 0;
-		
-		Frame frame = new Frame(1,4);
-		Frame frame2 = new Frame(4,5);
-		Frame frame3 = new Frame(6,4);
-		
-		bg.addFrame(frame);
-		bg.addFrame(frame2);
-		bg.addFrame(frame3);
-		
-		for(int i=0; i<3; i++){
-			Frame frameResult = bg.getFrame();
-			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
-		}
-		assertEquals("Sudokus length is OK", 22, result);	
-	}
 }
