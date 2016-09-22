@@ -161,3 +161,26 @@ UnitTestCaseAction 1474550197334 TestBowling.java OK
 UnitTestSessionAction 1474550197334 TestBowling.java OK
 RefactoringAction 1474550313094 BowlingGame.java RENAME getFrame()=>Frame getFrame(int) METHOD
 EditAction 1474550336240 TestBowling.java 1366 3 27 3
+CompilationAction 1474550336427 TestBowling.java
+CompilationAction 1474550340084 BowlingGame.java
+CompilationAction 1474550340084 BowlingGame.java
+CompilationAction 1474550340084 BowlingGame.java
+CompilationAction 1474550340115 BowlingGame.java
+CompilationAction 1474550340115 BowlingGame.java
+CompilationAction 1474550340115 BowlingGame.java
+CompilationAction 1474550340131 BowlingGame.java
+CompilationAction 1474550340131 BowlingGame.java
+CompilationAction 1474550340131 BowlingGame.java
+CompilationAction 1474550340131 TestBowling.java
+UnitTestCaseAction 1474550341991 TestBowling.java FAIL
+UnitTestSessionAction 1474550341991 TestBowling.java FAIL
+CompilationAction 1474550437037 BowlingGame.java
+CompilationAction 1474550437037 BowlingGame.java
+CompilationAction 1474550437037 BowlingGame.java
+CompilationAction 1474550437037 BowlingGame.java
+CompilationAction 1474550437162 BowlingGame.java
+CompilationAction 1474550437162 BowlingGame.java
+CompilationAction 1474550437162 BowlingGame.java
+UnitTestCaseAction 1474550447900 TestBowling.java FAIL
+UnitTestSessionAction 1474550447900 TestBowling.java FAIL
+EditAction 1474550478970 BowlingGame.java 836 5 6 0
