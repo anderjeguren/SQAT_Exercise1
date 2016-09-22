@@ -33,9 +33,11 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		bg.setBonus(6, 0);
+		bg.setBonus(6, 2);
 		
-		assertEquals("Sudokus length is OK", 6, bg.getFrame(3).getFirstThrow());	
+		result = bg.getFrame(3).getFirstThrow() + bg.getFrame(3).getSecondThrow();
+		
+		assertEquals("Sudokus length is OK", 6, result);	
 	}
 
 	@Test
