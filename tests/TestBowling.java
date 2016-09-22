@@ -34,7 +34,7 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		for(int i=0; i<34; i++){
+		for(int i=0; i<3; i++){
 			Frame frameResult = bg.getFrame();
 			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
 		}
@@ -55,7 +55,7 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		for(int i=0; i<34; i++){
+		for(int i=0; i<3; i++){
 			Frame frameResult = bg.getFrame();
 			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
 		}
