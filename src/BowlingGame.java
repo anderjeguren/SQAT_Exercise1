@@ -34,7 +34,7 @@ public class BowlingGame {
 		Frame frameResult;
 		for(int i=frames.size(); i>0; i--){
 			frameResult = getFrame();
-			score += frameResult.getFirstThrow() + frameResult.getSecondThrow();		
+			score += frameResult.score();		
 	}
 		return score;
 	}
