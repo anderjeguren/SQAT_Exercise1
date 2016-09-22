@@ -33,3 +33,4 @@ RefactoringAction 1474546269209 Frame.java ADD void setSecondThrow(int) METHOD
 RefactoringAction 1474546272224 Frame.java REMOVE setFirstThrow(int) METHOD
 RefactoringAction 1474546281226 Frame.java ADD void setFirstThrow(int) METHOD
 EditAction 1474546294618 Frame.java 845 8 9 0
+EditAction 1474546314598 TestBowling.java 475 1 7 1
