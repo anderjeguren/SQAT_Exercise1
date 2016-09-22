@@ -40,3 +40,4 @@ RefactoringAction 1474546429167 BowlingGame.java ADD void addFrame(Frame)/2 METH
 RefactoringAction 1474546437191 BowlingGame.java RENAME addFrame(Frame)/2=>void getFrame(Frame) METHOD
 EditAction 1474546500802 BowlingGame.java 727 5 3 0
 EditAction 1474546504443 TestBowling.java 465 1 7 1
+EditAction 1474546570659 BowlingGame.java 735 5 3 0
