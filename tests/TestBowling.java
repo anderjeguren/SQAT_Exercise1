@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test
-	public void test() {
+	public void testaddFrame() {
 		fail("Not yet implemented");
 	}
 
