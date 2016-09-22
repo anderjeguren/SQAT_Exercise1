@@ -33,11 +33,11 @@ public class TestBowling {
 		bg.addFrame(frame2);
 		bg.addFrame(frame3);
 		
-		for(int i=0; i<3; i++){
+		for(int i=0; i<34; i++){
 			Frame frameResult = bg.getFrame();
 			result += frameResult.getFirstThrow() + frameResult.getSecondThrow();
 		}
-		assertEquals("Sudokus length is OK", 9, result);	
+		assertEquals("Sudokus length is OK", 22, result);	
 	}
 
 }
