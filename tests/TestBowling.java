@@ -46,6 +46,7 @@ public class TestBowling {
 		bg.addFrame(frame9);
 		bg.addFrame(frame10);
 		
+		bg.setBonus(6, 0);
 		int result = bg.score();
 		
 		assertEquals("Sudokus length is OK", 133, result);	
