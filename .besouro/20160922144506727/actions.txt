@@ -7,3 +7,6 @@ RefactoringAction 1474545389690 TestBowling.java RENAME test()=>void testadd() M
 RefactoringAction 1474545391190 TestBowling.java RENAME testadd()=>void testaddFrame() METHOD
 EditAction 1474545399136 TestBowling.java 173 1 1 0
 EditAction 1474545579975 Frame.java 758 7 8 0
+RefactoringAction 1474545645425 Frame.java ADD void setFirstThrow(int)/2 METHOD
+RefactoringAction 1474545650941 Frame.java RENAME setFirstThrow(int)/2=>void setSecondThrow(int) METHOD
+EditAction 1474545667566 Frame.java 848 8 9 0
