@@ -6,3 +6,4 @@ FileOpenedAction 1474545378154 TestBowling.java 165 1 1 0
 RefactoringAction 1474545389690 TestBowling.java RENAME test()=>void testadd() METHOD
 RefactoringAction 1474545391190 TestBowling.java RENAME testadd()=>void testaddFrame() METHOD
 EditAction 1474545399136 TestBowling.java 173 1 1 0
+EditAction 1474545579975 Frame.java 758 7 8 0
