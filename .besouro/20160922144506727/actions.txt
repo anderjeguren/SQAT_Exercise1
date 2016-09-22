@@ -43,3 +43,4 @@ EditAction 1474546504443 TestBowling.java 465 1 7 1
 EditAction 1474546570659 BowlingGame.java 735 5 3 0
 RefactoringAction 1474546574563 BowlingGame.java RENAME getFrame(Frame)=>Frame getFrame() METHOD
 EditAction 1474546575657 BowlingGame.java 724 5 3 0
+EditAction 1474546578715 TestBowling.java 522 1 9 1
