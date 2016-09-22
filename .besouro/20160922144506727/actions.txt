@@ -110,3 +110,4 @@ RefactoringAction 1474548711020 TestBowling.java ADD void testScore()/2 METHOD
 RefactoringAction 1474548714529 TestBowling.java RENAME testScore()/2=>void test() METHOD
 RefactoringAction 1474548716032 TestBowling.java RENAME test()=>void testBonus() METHOD
 EditAction 1474548795163 TestBowling.java 1476 3 27 3
+EditAction 1474548820167 TestBowling.java 1476 3 27 3
