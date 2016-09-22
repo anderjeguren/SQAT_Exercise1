@@ -49,3 +49,7 @@ UnitTestCaseAction 1474546600214 TestBowling.java FAIL
 UnitTestSessionAction 1474546600214 TestBowling.java FAIL
 EditAction 1474546742173 BowlingGame.java 721 5 3 0
 EditAction 1474546775724 TestBowling.java 553 1 9 1
+RefactoringAction 1474546775880 TestBowling.java ADD Frame frame FIELD
+UnitTestCaseAction 1474546782499 TestBowling.java FAIL
+UnitTestSessionAction 1474546782499 TestBowling.java FAIL
+EditAction 1474546785687 TestBowling.java 534 1 9 1

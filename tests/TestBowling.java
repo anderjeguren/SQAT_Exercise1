@@ -7,13 +7,11 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	private Frame frame;
-
 	@Test
 	public void testaddFrame() {
 		
 		BowlingGame bg = new BowlingGame();
-		frame = null;
+		Frame frame = null;
 		Frame frameResult = null;
 		frame.setFirstThrow(4);
 		frame.setSecondThrow(5);
