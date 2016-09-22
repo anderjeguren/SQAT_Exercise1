@@ -16,7 +16,7 @@ public class BowlingGame {
 	}
 	
 	// gets a frame to the game
-		public Frame getFrame(Frame frame){
+		public Frame getFrame(){
 			return frames.get(frames.size());
 		}
 	
