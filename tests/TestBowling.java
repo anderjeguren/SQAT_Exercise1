@@ -23,7 +23,6 @@ public class TestBowling {
 	public void testBonus() {
 		
 		BowlingGame bg = new BowlingGame();
-		int result = 0;
 		
 		Frame frame = new Frame(1,4);
 		Frame frame2 = new Frame(4,5);
@@ -47,11 +46,9 @@ public class TestBowling {
 		bg.addFrame(frame9);
 		bg.addFrame(frame10);
 		
-		bg.setBonus(6, 2);
+		int result = bg.score();
 		
-		result = bg.getFrame(3).getFirstThrow() + bg.getFrame(3).getSecondThrow();
-		
-		assertEquals("Sudokus length is OK", 6, result);	
+		assertEquals("Sudokus length is OK", 133, result);	
 	}
 
 	@Test
@@ -83,7 +80,7 @@ public class TestBowling {
 		
 		int result = bg.score();
 		
-		assertEquals("Sudokus length is OK", 31, result);	
+		assertEquals("Sudokus length is OK", 125, result);	
 	}
 
 }
