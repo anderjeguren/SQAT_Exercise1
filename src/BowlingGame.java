@@ -32,7 +32,7 @@ public class BowlingGame {
 	public int score(){
 		int score = 0;
 		Frame frameResult;
-		for(int i=frames.size()-1; i>0; i--){
+		for(int i=0; i>frames.size()-1; i--){
 			frameResult = getFrame(i);
 			score += frameResult.score();		
 	}
