@@ -3,7 +3,7 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
-		this.setFirstThrow(firstThrow);
+		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	
@@ -31,13 +31,5 @@ public class Frame {
 	public boolean isSpare(){
 		//to be implemented
 		return false;
-	}
-
-	public void setFirstThrow(int firstThrow) {
-		this.firstThrow = firstThrow;
-	}
-	
-	public void setSecondThrow(int secondThrow) {
-		this.secondThrow = secondThrow;
 	}
 }
