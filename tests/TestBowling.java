@@ -57,7 +57,7 @@ public class TestBowling {
 		
 		int result = bg.score();
 		
-		assertEquals("Sudokus length is OK", 25, result);	
+		assertEquals("Sudokus length is OK", 31, result);	
 	}
 
 }
