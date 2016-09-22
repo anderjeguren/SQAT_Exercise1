@@ -48,7 +48,7 @@ public class TestBowling {
 		BowlingGame bg = new BowlingGame();
 		
 		Frame frame = new Frame(4,5);
-		Frame frame2 = new Frame(2,5);
+		Frame frame2 = new Frame(5,5);
 		Frame frame3 = new Frame(1,5);
 		
 		bg.addFrame(frame);
@@ -57,7 +57,7 @@ public class TestBowling {
 		
 		int result = bg.score();
 		
-		assertEquals("Sudokus length is OK", 22, result);	
+		assertEquals("Sudokus length is OK", 25, result);	
 	}
 
 }

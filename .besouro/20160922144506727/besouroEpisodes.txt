@@ -286,3 +286,6 @@
 1474549431170 test-first 3 549 true
 1474549431171 test-first 3 549 true
 1474549485308 refactoring 2A 10 true
+1474550133168 refactoring 2A 321 true
+1474550133169 production 1 321 false
+1474550133170 refactoring 2A 321 true
