@@ -57,3 +57,14 @@ RefactoringAction 1474546786640 TestBowling.java REMOVE frame FIELD
 RefactoringAction 1474546829715 Frame.java REMOVE setSecondThrow(int) METHOD
 RefactoringAction 1474546829715 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1474546831700 Frame.java 671 6 7 0
+CompilationAction 1474546831887 TestBowling.java
+CompilationAction 1474546831887 TestBowling.java
+CompilationAction 1474546887498 TestBowling.java
+CompilationAction 1474546887498 TestBowling.java
+CompilationAction 1474546887608 TestBowling.java
+CompilationAction 1474546887608 TestBowling.java
+CompilationAction 1474546895317 TestBowling.java
+CompilationAction 1474546895317 TestBowling.java
+UnitTestCaseAction 1474546897545 TestBowling.java FAIL
+UnitTestSessionAction 1474546897545 TestBowling.java FAIL
+EditAction 1474546909518 BowlingGame.java 723 5 3 0

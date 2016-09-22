@@ -11,13 +11,11 @@ public class TestBowling {
 	public void testaddFrame() {
 		
 		BowlingGame bg = new BowlingGame();
-		Frame frame = null;
-		Frame frameResult = null;
-		frame.setFirstThrow(4);
-		frame.setSecondThrow(5);
+		Frame frame = new Frame(4,5);
+
 		
 		bg.addFrame(frame);
-		frameResult = bg.getFrame();
+		Frame frameResult = bg.getFrame();
 		int result = frameResult.getFirstThrow() + frameResult.getSecondThrow();
 		assertEquals("Sudokus length is OK", 9, result);	
 	}
