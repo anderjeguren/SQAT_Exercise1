@@ -22,9 +22,10 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		if (firstThrow + secondThrow == 10){
-			frames.add(bonus);
-		}
+		
+		bonus
+		frames.add(bonus);
+		
 	}
 	
 	// Returns the game score
