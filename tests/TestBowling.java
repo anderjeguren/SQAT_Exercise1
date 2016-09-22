@@ -68,7 +68,7 @@ public class TestBowling {
 		Frame frame7 = new Frame(7,3);
 		Frame frame8 = new Frame(6,4);
 		Frame frame9 = new Frame(10,0);
-		Frame frame10 = new Frame(2,8);
+		Frame frame10 = new Frame(2,7);
 		
 		bg.addFrame(frame);
 		bg.addFrame(frame2);
