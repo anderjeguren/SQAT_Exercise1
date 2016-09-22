@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 //Finish time:
 //ID:
 
@@ -15,6 +14,11 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		frames.add(frame);
 	}
+	
+	// gets a frame to the game
+		public void getFrame(Frame frame){
+			frames.get(frames.size());
+		}
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
