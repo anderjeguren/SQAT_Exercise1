@@ -32,12 +32,4 @@ public class Frame {
 		//to be implemented
 		return false;
 	}
-
-	public void setFirstThrow(int firstThrow) {
-		this.firstThrow = firstThrow;
-	}
-
-	public void setSecondThrow(int secondThrow) {
-		this.secondThrow = secondThrow;
-	}
 }

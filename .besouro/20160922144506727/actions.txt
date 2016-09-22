@@ -53,3 +53,7 @@ RefactoringAction 1474546775880 TestBowling.java ADD Frame frame FIELD
 UnitTestCaseAction 1474546782499 TestBowling.java FAIL
 UnitTestSessionAction 1474546782499 TestBowling.java FAIL
 EditAction 1474546785687 TestBowling.java 534 1 9 1
+RefactoringAction 1474546786640 TestBowling.java REMOVE frame FIELD
+RefactoringAction 1474546829715 Frame.java REMOVE setSecondThrow(int) METHOD
+RefactoringAction 1474546829715 Frame.java REMOVE setFirstThrow(int) METHOD
+EditAction 1474546831700 Frame.java 671 6 7 0
