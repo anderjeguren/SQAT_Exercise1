@@ -16,7 +16,7 @@ public class TestBowling {
 		bg.addFrame(frame);
 		Frame frameResult = bg.getFrame(0);
 		int result = frameResult.getFirstThrow() + frameResult.getSecondThrow();
-		assertEquals("Sudokus length is OK", 9, result);	
+		assertEquals("OK", 9, result);	
 	}
 	
 	@Test
@@ -49,7 +49,7 @@ public class TestBowling {
 		bg.setBonus(6, 0);
 		int result = bg.score();
 		
-		assertEquals("Sudokus length is OK", 133, result);	
+		assertEquals("OK", 133, result);	
 	}
 
 	@Test
@@ -81,7 +81,7 @@ public class TestBowling {
 		
 		int result = bg.score();
 		
-		assertEquals("Sudokus length is OK", 125, result);	
+		assertEquals("OK", 125, result);	
 	}
 
 }
