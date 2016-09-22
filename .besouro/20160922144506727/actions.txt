@@ -13,3 +13,23 @@ EditAction 1474545667566 Frame.java 848 8 9 0
 RefactoringAction 1474545741694 Frame.java REMOVE setSecondThrow(int) METHOD
 RefactoringAction 1474545770792 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1474545780027 Frame.java 671 6 7 0
+RefactoringAction 1474545831850 TestBowling.java ADD void Frame(int, int) METHOD
+RefactoringAction 1474545834457 TestBowling.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1474545855505 Frame.java RENAME Frame(int, int)=>void voidFrame(int, int) METHOD
+RefactoringAction 1474545857505 Frame.java RENAME voidFrame(int, int)=>Frame(int, int) METHOD
+RefactoringAction 1474546019054 TestBowling.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1474546019054 TestBowling.java ADD import java.util.List IMPORT
+RefactoringAction 1474546148366 BowlingGame.java ADD import B IMPORT
+RefactoringAction 1474546153371 BowlingGame.java RENAME import B=>import BowlingG IMPORT
+RefactoringAction 1474546155372 BowlingGame.java RENAME import BowlingG=>import BowlingGame IMPORT
+RefactoringAction 1474546164361 BowlingGame.java REMOVE import BowlingGame IMPORT
+RefactoringAction 1474546180425 TestBowling.java ADD import BowlingGame IMPORT
+RefactoringAction 1474546196462 TestBowling.java RENAME import BowlingGame=>import BowlingGame.java IMPORT
+RefactoringAction 1474546206167 TestBowling.java REMOVE import BowlingGame.java IMPORT
+RefactoringAction 1474546228453 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474546232112 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474546248653 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1474546269209 Frame.java ADD void setSecondThrow(int) METHOD
+RefactoringAction 1474546272224 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1474546281226 Frame.java ADD void setFirstThrow(int) METHOD
+EditAction 1474546294618 Frame.java 845 8 9 0
