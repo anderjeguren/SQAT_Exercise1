@@ -48,7 +48,7 @@ public class TestBowling {
 		BowlingGame bg = new BowlingGame();
 		
 		Frame frame = new Frame(4,5);
-		Frame frame2 = new Frame(5,5);
+		Frame frame2 = new Frame(10,0);
 		Frame frame3 = new Frame(1,5);
 		
 		bg.addFrame(frame);
