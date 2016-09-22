@@ -12,9 +12,25 @@ public class TestBowling {
 		
 		BowlingGame bg = new BowlingGame();
 		Frame frame = new Frame(4,5);
-
 		
 		bg.addFrame(frame);
+		Frame frameResult = bg.getFrame();
+		int result = frameResult.getFirstThrow() + frameResult.getSecondThrow();
+		assertEquals("Sudokus length is OK", 9, result);	
+	}
+	
+	@Test
+	public void testScore() {
+		
+		BowlingGame bg = new BowlingGame();
+		Frame frame = new Frame(4,5);
+		Frame frame2 = new Frame(2,5);
+		Frame frame3 = new Frame(1,5);
+		
+		bg.addFrame(frame);
+		bg.addFrame(frame2);
+		bg.addFrame(frame3);
+		
 		Frame frameResult = bg.getFrame();
 		int result = frameResult.getFirstThrow() + frameResult.getSecondThrow();
 		assertEquals("Sudokus length is OK", 9, result);	

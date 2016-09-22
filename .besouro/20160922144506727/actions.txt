@@ -88,3 +88,12 @@ CompilationAction 1474547405945 BowlingGame.java
 CompilationAction 1474547438724 BowlingGame.java
 CompilationAction 1474547438724 BowlingGame.java
 EditAction 1474547445501 BowlingGame.java 868 5 6 0
+UnitTestCaseAction 1474547449021 TestBowling.java OK
+UnitTestSessionAction 1474547449021 TestBowling.java OK
+RefactoringAction 1474547459521 TestBowling.java ADD void testaddFrame()/2 METHOD
+RefactoringAction 1474547467533 TestBowling.java RENAME testaddFrame()/2=>void testget() METHOD
+RefactoringAction 1474547468533 TestBowling.java RENAME testget()=>void test() METHOD
+RefactoringAction 1474547470535 TestBowling.java RENAME test()=>void testSocre() METHOD
+RefactoringAction 1474547472051 TestBowling.java RENAME testSocre()=>void testS() METHOD
+RefactoringAction 1474547474054 TestBowling.java RENAME testS()=>void testScore() METHOD
+EditAction 1474547525406 TestBowling.java 899 2 16 2
